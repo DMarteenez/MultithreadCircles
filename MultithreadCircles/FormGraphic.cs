@@ -36,6 +36,10 @@ namespace MultithreadCircles
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if(formControl.numericUpDownMinLife.Value > formControl.numericUpDownMaxLife.Value)
+            {
+                formControl.numericUpDownMinLife.Value = formControl.numericUpDownMaxLife.Value;
+            }
 
             formControl.circleController.Tick();
 

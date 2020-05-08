@@ -213,7 +213,7 @@
             this.MaximumSize = new System.Drawing.Size(235, 274);
             this.MinimumSize = new System.Drawing.Size(235, 274);
             this.Name = "FormControl";
-            this.Text = "FormControl";
+            this.Text = "Control";
             this.Load += new System.EventHandler(this.FormControl_Load);
             this.Resize += new System.EventHandler(this.FormControl_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownCount)).EndInit();

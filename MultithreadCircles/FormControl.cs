@@ -57,11 +57,13 @@ namespace MultithreadCircles
             if (WindowState == FormWindowState.Minimized)
             {
                 formGraphic.WindowState = FormWindowState.Minimized;
+                buttonPause_Click(sender, e);
             }
 
             if (WindowState == FormWindowState.Normal)
             {
                 formGraphic.WindowState = FormWindowState.Normal;
+                buttonRun_Click(sender, e);
             }
         }
     }

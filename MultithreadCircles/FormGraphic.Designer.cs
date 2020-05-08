@@ -42,10 +42,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "FormGraphic";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "FormGraphic";
+            this.Text = "Canvas";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormGraphic_FormClosing);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.FormGraphic_Paint);
             this.Resize += new System.EventHandler(this.FormGraphic_Resize);

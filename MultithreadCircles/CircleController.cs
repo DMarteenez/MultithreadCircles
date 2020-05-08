@@ -10,8 +10,8 @@ namespace MultithreadCircles
 {
     public class CircleController
     {
-        private static int minTicksTillNewCircle = 10;
-        private static int maxTicksTillNewCircle = 50;
+        private static int minTicksTillNewCircle = 5;
+        private static int maxTicksTillNewCircle = 20;
 
         public List<MyCircle> circles = new List<MyCircle>();
         public List<Task> tasks = new List<Task>();
